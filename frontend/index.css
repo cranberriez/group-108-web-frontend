@@ -1,0 +1,19 @@
+body {
+    font-family: sans-serif;
+}
+
+.descriptor {
+    list-style: none;
+}
+
+#main-nav li a {
+    font-size: 24px;
+}
+
+#main-nav li:not(.descriptor) {
+    margin-top: 10px;
+}
+
+#main-nav li.active {
+    font-weight: bold;
+}
