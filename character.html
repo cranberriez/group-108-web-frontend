@@ -25,8 +25,24 @@
         <main>
             <h1>Your Character</h1>
             <h3>Character Creator</h3>
-            <p>You haven't created your character yet</p>
-            <p>The creator will dissapear once it has been made</p>
+            <table>
+                <tr>
+                    <th>Character ID</th>
+                    <th>First Name</th>
+                    <th>Lastg Name</th>
+                    <th>Birthday</th>
+                    <th>Country of Origin</th>
+                    <th>Item(s)<th>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>Joe</td>
+                    <td>Schmoe</td>
+                    <td>01-01-2000</td>
+                    <td>Mordor</td>
+                    <td>Training Sword</td>
+                </tr>
+            </table>
             <form>
                 <h4>Creator</h4>
                 <label>First Name</label>
@@ -44,11 +60,18 @@
                 </select>
                 <input type="button" value="Create">
             </form>
-
-            <h3>Inventory</h3>
-            <p>You don't have any items</p>
-            <h3>Guild</h3>
-            <p>You aren't a part of a guild</p>
+            <form>
+                <h4>Remove a character</h4>
+                <label>ID</label>
+                <input type="text">
+                <input type="button" value="Delete">
+            </form>
+            <form>
+                <h4>Search for character</h4>
+                <label>First Name</label>
+                <input type="text">
+                <input type="button" value="Search">
+            </form>
         </main>
     </body>
 </html>
